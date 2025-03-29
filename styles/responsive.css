@@ -1,107 +1,154 @@
 @media (max-width: 1000px) {
 
 
-.section-um {
-    flex-direction: column-reverse;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    margin: 0;
-}
-
-.container-um {
-    margin: 10% 0% 15% 0%;
-}
-
-.texto-section-um {
-    margin: 0 0 5% 0;
-}
-
-.botao {
-    text-align: center;
-    justify-content: center;
-    margin: 0;
-}
-
-.img-perfil {
-    margin: 0;
-}
-
-.section-projeto {
-    display: block;
-    text-align: center;
-    flex-direction: column-reverse;
-}
-
-.section-onfirer{
-    display: block;
-    flex-direction: column-reverse;
-    text-align: center;
-}
-
-.img-onfirer{
-    margin: 10% 0;
-}
-
-
-}
-
-@media (max-width: 750px) {
-    .container-um {
-        margin: 10% 5% 15% 5%;
-    }
-
-    .texto-section-um{
-        text-align: justify;
-        margin: 0 8% 8% 8%;
-    }
-
-    .texto-section-dois{
-        margin: 5% 10%;
-        text-align: justify;
-    }
-
-    .texto-onfirer{
-        text-align: justify;
-    }
-
-    .img-skills{
-        width: 60%;
-    }
-
-    .img-projeto{
-        width: 60%;
-    }
-
-    .texto-projeto{
-        text-align: justify;
-    }
-
-    .texto-formulario{
-        margin: 4% 15%;
+    .section-um {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 0;
     }
     
-    .espaco-escrita {
-        margin: 0 15%; 
-      }
-      
-      .espaco-escrita-mensagem {
-       margin: 0 15%;
-      }
-
-      .texto-sobre-portfólio{
-        margin: 4% 10%;
-        text-align: justify;
-      }
-
-      .titulo-sobre-portfolio{
-        margin: 0 4%;
-      }
-
-      .whatsapp{
-        width: 15%;
-      }
-
+    .container-um {
+        margin: 10% 0% 15% 0%;
     }
-
+    
+    .texto-section-um {
+        margin: 0 0 5% 0;
+    }
+    
+    .botao {
+        text-align: center;
+        justify-content: center;
+        margin: 0;
+    }
+    
+    .img-perfil {
+        margin: 0;
+    }
+    
+    .section-projeto {
+        display: block;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    
+    .section-onfirer{
+        display: block;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    
+    .img-onfirer{
+        margin: 10% 0;
+    }
+    
+    
+    }
+    
+    @media (max-width: 750px) {
+    
+        /* .p {
+            font-size: 5px;
+        } */
+       
+        .titulo-principal {
+            font-size: 2em;
+        }
+        
+        .titulo-section-dois {
+            font-size: 2em;
+        }
+        
+        .titulo-skills {
+            font-size: 2em;
+        }
+        
+        .titulo-projeto {
+            font-size: 2em;
+        }
+        
+        .titulo-sobre-onfirer {
+            font-size: 2em;
+        }
+        
+        .titulo-formulario {
+            font-size: 2em;
+        }
+        
+        .titulo-sobre-portfolio {
+            font-size: 2em;
+        }
+       
+        .container-um {
+            margin: 10% 5% 15% 5%;
+        }
+    
+        .texto-section-um{
+            text-align: justify;
+            font-size: 18px;
+            margin: 0 8% 8% 8%;
+        }
+    
+        .texto-section-dois{
+            margin: 5% 10%;
+            font-size: 18px;
+            text-align: justify;
+        }
+    
+        .texto-onfirer{
+            text-align: justify;
+            font-size: 18px;
+        }
+    
+        .img-skills{
+            width: 90%;
+        }
+    
+        .img-projeto{
+            width: 80%;
+        }
+    
+        .img-onfirer{
+            width: 70%;
+        }
+    
+        .texto-projeto{
+            text-align: justify;
+            font-size: 18px;
+        }
+    
+        .texto-formulario{
+            margin: 4% 15%;
+        }
+        
+        .espaco-escrita {
+            margin: 0 15%; 
+          }
+          
+          .espaco-escrita-mensagem {
+           margin: 0 15%;
+          }
+    
+          .texto-sobre-portfólio{
+            margin: 4% 10%;
+            text-align: justify;
+            font-size: 18px;
+          }
+    
+          .titulo-sobre-portfolio{
+            margin: 0 4%;
+          }
+    
+          .whatsapp{
+            width: 15%;
+          }
+    
+          .texto-rodape{
+            font-size: 22px;
+          }
+    
+        }
+    
+    
